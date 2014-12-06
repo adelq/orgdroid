@@ -10,4 +10,13 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+
+    public void setUp() {
+        createApplication();
+    }
+
+    public void testApplicationPackageName() {
+        Application mApplication = getApplication();
+        assertEquals("com.adelqalieh.orgdroid", mApplication.getPackageName());
+    }
 }
