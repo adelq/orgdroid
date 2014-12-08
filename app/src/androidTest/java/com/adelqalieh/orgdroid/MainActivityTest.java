@@ -7,7 +7,7 @@ import android.view.ContextThemeWrapper;
 import android.widget.FrameLayout;
 
 /**
- * Testing the Main Activity
+ * Unit Testing the Main Activity
  * Created by Adel on 12/6/14.
  */
 public class MainActivityTest extends ActivityUnitTestCase<MainActivity> {
